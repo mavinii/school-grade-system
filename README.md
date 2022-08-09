@@ -1,5 +1,5 @@
 # Javascript Simple Exercises
-Tutor: [Mayk Brito](https://www.linkedin.com/in/maykbrito/?originalSubdomain=br)
+Tutor: [Mayk Brito](https://github.com/maykbrito)
 
 ## 1. School Grade System:
 Create an algorithm that transforms the grade of a school into a numeric system between A B C D E:
