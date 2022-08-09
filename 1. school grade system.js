@@ -8,28 +8,28 @@
     * less then 60      = E
  */
 
-    function getScore(score) {
-        let scoreA = score >= 90 && score <= 100
-        let scoreB = score >= 80 && score < 90
-        let scoreC = score >= 70 && score < 79
-        let scoreD = score >= 60 && score < 69
-        let scoreE = score >= 0 && score < 59
-    
-        let scoreFinal;
-    
-        if(scoreA){
-            scoreFinal = "A"
-        } else if(scoreB){
-            scoreFinal = "B"
-        } else if(scoreC){
-            scoreFinal = "C"
-        } else if(scoreD){
-            scoreFinal = "D"
-        } else if(scoreE) {
-            scoreFinal = "E"    
-        } else {
-            scoreFinal = "Invalid Score!"
-        }
-        return scoreFinal
+function getScore(score) {
+    let scoreA = score >= 90 && score <= 100
+    let scoreB = score >= 80 && score < 90
+    let scoreC = score >= 70 && score < 79
+    let scoreD = score >= 60 && score < 69
+    let scoreE = score >= 0 && score < 59
+
+    let scoreFinal;
+
+    if(scoreA){
+        scoreFinal = "A"
+    } else if(scoreB){
+        scoreFinal = "B"
+    } else if(scoreC){
+        scoreFinal = "C"
+    } else if(scoreD){
+        scoreFinal = "D"
+    } else if(scoreE) {
+        scoreFinal = "E"    
+    } else {
+        scoreFinal = "Invalid Score!"
     }
-    console.log(getScore(92))
+    return scoreFinal
+}
+console.log(getScore(92))
